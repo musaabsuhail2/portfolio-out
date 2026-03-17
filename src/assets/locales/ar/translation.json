@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عني",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "contact": "تواصل"
+  },
+  "hero": {
+    "greeting": "مرحباً، أنا",
+    "name": "مصعب سهيل",
+    "title": "مطور واجهة أمامية",
+    "subtitle": "أبني تطبيقات ويب جميلة وعالية الأداء.",
+    "cta": "عرض أعمالي",
+    "contact": "تواصل معي"
+  },
+  "about": {
+    "label": "٠١ — عني",
+    "title": "من أنا",
+    "bio": {
+      "name": "مصعب سهيل",
+      "description": "مطور واجهة أمامية مقيم في <strong>الريان، الدوحة، قطر</strong>. أبني تطبيقات React عالية الأداء مع التركيز على إدارة الحالة والميزات الفورية وبنية المكونات النظيفة. أعمل حالياً في Core Cognitics على بناء أنظمة إنتاجية.",
+      "location": "الريان، الدوحة، قطر",
+      "email": "musaabsuhail1@gmail.com",
+      "education_badge": "بكالوريوس علوم الحاسب — 2024، المعدل 7.8"
+    },
+    "experience": {
+      "title": "الخبرة",
+      "role": "مطور برمجيات",
+      "company": "Core Cognitics",
+      "period": "أبريل 2024 – الآن",
+      "points": [
+        "تطبيقات React بـ JS و HTML و CSS",
+        "مصادقة Keycloak RBAC",
+        "تكامل Mapbox و WebSockets",
+        "إدارة الحالة بـ Redux و TanStack Query",
+        "تكامل REST API وتحسينه",
+        "تعاون Agile/Scrum عبر Jira"
+      ]
+    },
+    "education": {
+      "title": "التعليم",
+      "degree": "بكالوريوس علوم الحاسب",
+      "university": "جامعة B.S.A. Crescent",
+      "period": "يونيو 2024 · المعدل 7.8",
+      "secondary": "الثانوية العامة",
+      "school": "المدرسة الهندية MES، الدوحة"
+    },
+    "certifications": {
+      "title": "الشهادات"
+    },
+    "languages": {
+      "title": "اللغات المتحدثة",
+      "list": ["الإنجليزية", "المالايالامية", "الهندية", "التاميلية", "العربية"]
+    }
+  },
+  "projects": {
+    "title": "المشاريع",
+    "viewCode": "عرض الكود",
+    "liveDemo": "عرض مباشر"
+  },
+  "skills": {
+    "title": "المهارات"
+  },
+  "contact": {
+    "title": "تواصل معي",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "send": "إرسال",
+    "success": "تم إرسال الرسالة بنجاح!",
+    "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة."
+  }
+}

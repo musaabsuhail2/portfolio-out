@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Musaab Suhail",
+    "title": "Frontend Developer",
+    "subtitle": "I build beautiful, performant web applications.",
+    "cta": "View My Work",
+    "contact": "Get In Touch"
+  },
+  "about": {
+    "label": "01 — About",
+    "title": "Who I am",
+    "bio": {
+      "name": "Musaab Suhail",
+      "description": "Frontend Software Developer based in <strong>Al Rayyan, Doha, Qatar</strong>. I build pixel-perfect, performant React applications with a strong focus on state management, real-time features, and clean component architecture. Currently working at Core Cognitics building production-grade systems.",
+      "location": "Al Rayyan, Doha, Qatar",
+      "email": "musaabsuhail1@gmail.com",
+      "education_badge": "B.Tech CSE — 2024, CGPA 7.8"
+    },
+    "experience": {
+      "title": "Experience",
+      "role": "Software Developer",
+      "company": "Core Cognitics",
+      "period": "Apr 2024 – Present",
+      "points": [
+        "React apps with JS, HTML & CSS",
+        "Keycloak RBAC authentication",
+        "Mapbox + WebSockets integrations",
+        "Redux & TanStack Query state mgmt",
+        "REST API integration & optimisation",
+        "Agile/Scrum collaboration via Jira"
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "degree": "B.Tech Computer Science",
+      "university": "B.S.A. Crescent University",
+      "period": "June 2024 · CGPA 7.8",
+      "secondary": "Higher Secondary",
+      "school": "MES Indian School, Doha"
+    },
+    "certifications": {
+      "title": "Certifications"
+    },
+    "languages": {
+      "title": "Languages Spoken",
+      "list": ["English", "Malayalam", "Hindi", "Tamil", "Arabic"]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "viewCode": "View Code",
+    "liveDemo": "Live Demo"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
