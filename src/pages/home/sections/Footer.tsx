@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
            fontWeight: 700, fontSize: '11px', color: 'white',
         }}>MS</div>
         <span style={{ fontSize: '13px', color: dark ? 'rgba(241,245,249,0.35)' : 'rgba(15,23,42,0.35)', fontFamily: "'Inter', sans-serif", fontWeight: 600 }}>
-          Musaab Suhail · 2024
+          Musaab Suhail · 2026
         </span>
       </div>
       <span style={{ fontSize: '12px', color: dark ? 'rgba(241,245,249,0.25)' : 'rgba(15,23,42,0.3)', fontFamily: "'JetBrains Mono', monospace" }}>

@@ -11,6 +11,7 @@
   "dependencies": {
     "@chakra-ui/react": "^3.0.0",
     "@elevenlabs/elevenlabs-js": "^2.39.0",
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.13.0",
     "@reduxjs/toolkit": "^2.2.1",
     "i18next": "^23.0.0",
