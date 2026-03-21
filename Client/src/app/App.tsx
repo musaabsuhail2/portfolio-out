@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "@/features/theme/store";
 import { useAppSelector } from "@/shared/hooks";
-import { Provider as UIProvider } from "@/shared/components/ui/provider";
-import { useChakraThemeSync } from "@/features/theme/useChakraThemeSync";
-import { useTranslation } from "node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 import { HomePage } from "@/pages/home";
 
 const Portfolio: React.FC = () => {
@@ -12,12 +10,10 @@ const Portfolio: React.FC = () => {
   const dark = theme === "dark";
   const { i18n } = useTranslation();
 
-  useChakraThemeSync();
-
   useEffect(() => {
     document.documentElement.setAttribute(
       "dir",
-      i18n.language === "ar" ? "rtl" : "ltr",
+      i18n.language === "ar" ? "rtl" : "ltr"
     );
     document.documentElement.setAttribute("lang", i18n.language);
   }, [i18n.language]);
@@ -44,9 +40,7 @@ const Portfolio: React.FC = () => {
 
 const App: React.FC = () => (
   <ReduxProvider store={store}>
-    <UIProvider>
-      <Portfolio />
-    </UIProvider>
+    <Portfolio />
   </ReduxProvider>
 );
 

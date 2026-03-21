@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "@/shared/hooks";
 import { toggleTheme } from "@/features/theme/store/themeSlice";
-import LanguageSelector from "@/shared/components/LanguageSelector";
+import LanguageSelector from "@/components/LanguageSelector";
 
 const Navbar: React.FC = () => {
   const dispatch = useAppDispatch();
