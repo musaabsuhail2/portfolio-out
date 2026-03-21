@@ -23,14 +23,12 @@ function LanguageSelector() {
   return (
     <Select
       value={i18n.language}
-      onValueChange={(value) => i18n.changeLanguage(value)}
+      onValueChange={(value: any) => i18n.changeLanguage(value)}
     >
       <SelectTrigger
-        className="w-[160px]"
+        className="w-40"
         style={{
-          background: dark
-            ? "rgba(14,14,22,0.6)"
-            : "rgba(255,255,255,0.9)",
+          background: dark ? "rgba(14,14,22,0.6)" : "rgba(255,255,255,0.9)",
           border: dark
             ? "1px solid rgba(255,255,255,0.06)"
             : "1px solid #e5e7eb",
@@ -43,9 +41,7 @@ function LanguageSelector() {
 
       <SelectContent
         style={{
-          background: dark
-            ? "rgba(14,14,22,0.95)"
-            : "rgba(255,255,255,0.95)",
+          background: dark ? "rgba(14,14,22,0.95)" : "rgba(255,255,255,0.95)",
           border: dark
             ? "1px solid rgba(255,255,255,0.06)"
             : "1px solid #e5e7eb",

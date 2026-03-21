@@ -17,7 +17,6 @@ export default defineConfig({
         manualChunks: {
           "vendor-react": ["react", "react-dom"],
           "vendor-redux": ["@reduxjs/toolkit", "react-redux"],
-          "vendor-chakra": ["@chakra-ui/react"],
           "vendor-i18n": ["i18next", "react-i18next"],
         },
       },

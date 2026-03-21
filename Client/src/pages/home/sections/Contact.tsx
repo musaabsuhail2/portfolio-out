@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useAppSelector } from "@/shared/hooks";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
-const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+// const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+// const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+// const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Contact: React.FC = () => {
   const theme = useAppSelector((s) => s.theme.mode);
