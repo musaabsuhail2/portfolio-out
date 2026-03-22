@@ -6,6 +6,7 @@ import { Projects } from "./sections/Projects";
 import { Skills } from "./sections/Skills";
 import { Contact } from "./sections/Contact";
 import { Footer } from "./sections/Footer";
+import { Chatbot } from "@/components/Chatbot/index";
 
 export const HomePage: React.FC = () => (
   <>
@@ -18,5 +19,6 @@ export const HomePage: React.FC = () => (
       <Contact />
     </main>
     <Footer />
+    <Chatbot />
   </>
 );
