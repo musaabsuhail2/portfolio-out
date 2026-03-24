@@ -4,6 +4,11 @@ import Chatbot from "../models/Chatbot";
 
 const chatRouter = Router();
 
+if (!process.env.OPENAI_API_KEY) {
+  throw new Error("❌ OPENAI_API_KEY is missing in .env");
+}
+
+
 // POST /api/chat — save conversation history to MongoDB
 chatRouter.post("/history", async (req: Request, res: Response) => {
   try {
@@ -62,7 +67,7 @@ chatRouter.delete("/history/:sessionId", async (req: Request, res: Response) => 
 chatRouter.post(
   "/message",
   defaultMiddleware("openai", {
-    apiKey: process.env.OPEN_AI_API_KEY,
+    apiKey: process.env.OPENAI_API_KEY,
     chatModel: "gpt-3.5-turbo",
   })
 );
